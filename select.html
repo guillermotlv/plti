@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <main>
+        <!-- <label for="Cursos">Cursos en venta</label>
+        <select name="CURSOS" id="">
+            <option value="Javascript" >Javascript</option>
+            <option value="HTML5" >HTML5</option>
+            <option value="CSS" >CSS</option>
+            <option value="FULL STACK" >FULL STACK</option>
+            
+        </select> --><!----> prueba
+        <input type="text" list="cursos">
+        <datalist id="cursos">
+            <option value="Javascript"></option>
+            <option value="html"></option>
+            <option value="CSS"></option>
+            <option value="fullstack"></option>
+        </datalist>
+        <br>
+        <br>
+        <fieldset style="background-color: antiquewhite;"><legend>Postres</legend>
+        <label for="clases">¿Que postre te gusta?</label>
+        <br>
+        <br>
+        <select name="cursos" id="">
+            <option value="Cupcakes">Cupcakes</option>
+            <option value="Decoracion-tortas">Decoración de tortas</option>
+            <option value="Cakes">Cakes</option>
+            <option value="Cheesecakes">Cheesecakes</option>
+            <option value="Hojaldre">Hojaldre</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit">
+    </fieldset>
+    <br>
+    <br>
+    
+    <fieldset style="border-color: aqua;background-color: beige;"><legend>Consumo</legend><label for="postres">¿Que postres consumes mas?</label>
+    <br>
+    <br>
+    <input type="text" list="postres" style="background-color: rgb(255, 112, 177);"> 
+        <datalist id="postres">
+            <option value="Torta chocolate"></option>
+            <option value="tres leches"></option>
+            <option value="cheesecake"></option>
+            <option value="Cake Novia"></option>
+            <option value="Torta helada"></option>
+        </datalist>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <fieldset style="background-color: blanchedalmond;" > <legend style="color: brown;">Gastos</legend>
+    <label for="precio">Cuanto gastas en postres?</label>
+    <br>
+    <br>
+    <input type="text" list="gasto">
+    <datalist id="gasto">
+        <option value="5"></option>
+        <option value="10"></option>
+        <option value="15"></option>
+        <option value="20"></option>
+        <option value="25"></option>
+        <option value="30"></option>
+        <option value="35"></option>
+        <option value="40"></option>
+    </datalist>
+    
+    <input type="submit">
+</fieldset>
+<br>
+<br>
+<br>
+<fieldset style="background-color:aqua"><legend>Multiple eleccion</legend>
+<label for="Locales">¿Que local compras más?</label>
+<br>
+<br>
+<select>
+        <option value="chorrillos">Chorrillos</option>
+        <option value="Barranco">Barranco</option>
+        <option value="comas">Comas</option>
+        <option value="Miraflores">miraflores</option>
+        
+    </select>
+</fieldset>
+</main>
+
+</body>
+</html>
